@@ -1,0 +1,26 @@
+# Default configuration for blending.
+#
+
+#drnet_regression_skip_0:
+#    - drnet_regression_mean_iter_50_skip_0.npy
+#    - drnet_regression_std_iter_50_skip_0.npy
+#
+#drnet_regression_skip_50:
+#    - drnet_regression_mean_iter_50_skip_50.npy
+#    - drnet_regression_std_iter_50_skip_50.npy
+#
+#drnet_regression_skip_100:
+#    - drnet_regression_mean_iter_50_skip_100.npy
+#    - drnet_regression_std_iter_50_skip_100.npy
+
+drnet_classification_skip_0:
+    - drnet_classification_mean_iter_50_skip_0.npy
+    - drnet_classification_std_iter_50_skip_0.npy
+
+drnet_classification_skip_50:
+    - drnet_classification_mean_iter_50_skip_50.npy
+    - drnet_classification_std_iter_50_skip_50.npy
+
+drnet_classification_skip_100:
+    - drnet_classification_mean_iter_50_skip_100.npy
+    - drnet_classification_std_iter_50_skip_100.npy
